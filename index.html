@@ -5,35 +5,42 @@
 <title>Index</title>
 <link rel="stylesheet" type="text/css" href="styles/reset.css" />
 <link rel="stylesheet" type="text/css" href="styles/default.css" />
+<link rel="stylesheet" type="text/css" href="styles/wrapper.css" />
+<link rel="stylesheet" type="text/css" href="styles/header.css" />
+<link rel="stylesheet" type="text/css" href="styles/content.css" />
+<link rel="stylesheet" type="text/css" href="styles/footer.css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </head>
 
-<body>
+<body class="main">
 <div class="wrapper">
 	<div class="header">
 		<h1><a href="#"><img src="images/logo.png" alt="logo" /></a></h1>
-		<ul class="social-list">
-			<li class="facebook-link"><a href="#"></a></li>
-			<li class="vkontakte-link"><a href="#"></a></li>
-			<li class="twitter-link"><a href="#"></a></li>
-			<li class="youtube-link"><a href="#"></a></li>
-			<li class="vimeo-link"><a href="#"></a></li>
-		</ul>
 		<ul class="navigation">
 			<li class="active"><a href="#">главная</a></li>
 			<li><a href="#">о geekhub</a></li>
 			<li><a href="#">команда</a></li>
 			<li><a href="#">контакты</a></li>
 		</ul>
+		<ul class="social-list">
+			<li class="facebook-item"><a href="#"></a></li>
+			<li class="vkontakte-item"><a href="#"></a></li>
+			<li class="twitter-item"><a href="#"></a></li>
+			<li class="youtube-item"><a href="#"></a></li>
+			<li class="vimeo-item"><a href="#"></a></li>
+		</ul>
 	</div>
     <div class="content">
-		<span>Нажаль, реєстрацію на другий сезон вже зачинено. Чекаємо на Вас наступного року!</span>
-		<p><strong>GeekHub</strong> — це проект, що надає можливість отримати практичні знання та навички в сфері розробки програмного забезпечення. На відміну від традиційної освіти, викладачі GeekHub працюють з новітніми технологіями у провідних софтверних компаніях, тому слухачі GeekHub отримують тільки актуальні знання. Якщо ти зацікавлений — запрошуємо ознайомитись з <a href="#">деталями проекту.</a></p>
+		<div class="status-block">
+			Реєстрація на другий сезон відкрита!
+			<a href="#" class="register-link"></a>
+		</div>
+		<p class="description-txt"><strong>GeekHub</strong> — це проект, що надає можливість отримати практичні знання та навички в сфері розробки програмного забезпечення. На відміну від традиційної освіти, викладачі GeekHub працюють з новітніми технологіями у провідних софтверних компаніях, тому слухачі GeekHub отримують тільки актуальні знання. Якщо ти зацікавлений — запрошуємо ознайомитись з <a href="#">деталями проекту.</a></p>
 		<h2>Наші Курси</h2>
 		<ul>
 			<li>
-				<img src="" alt="" />
+				<img src="images/front-end-and-cms-logo.jpg" alt="Frontend + CMS" />
 				<h3>Frontend + CMS</h3>
 				<p>Цей курс допоможе вам навчитися створювати веб сайти на основі системи керування контентом. Все, від скінування дизайну до підключення CMS. Цей курс дасть вам чудовий старт для фріланса або роботи в компанії.</p>
 			</li>
