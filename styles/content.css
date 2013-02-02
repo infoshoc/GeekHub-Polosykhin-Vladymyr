@@ -38,15 +38,22 @@
 .courses-list li {
 	overflow: hidden;
 	float: left;
-	width: 45%;
-	margin: 0 23px;
+	width: 44%;
+	margin: 0 28px;
 }
 .courses-list img {
 	float: left;
+	margin: 0 20px 0 0;
 }
 .courses-list h3 {
 	overflow: hidden;
+	font-size: 28px;
+	font-family: "Trebuchet MS", sans-serif;
+	color: #E92777;
 }
 .courses-list p {
 	overflow: hidden;
+	line-height: 18px;
+	font-size: 13px;
+	color: #4B7589;
 }
