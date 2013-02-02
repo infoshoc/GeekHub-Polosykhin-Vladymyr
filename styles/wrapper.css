@@ -1,0 +1,8 @@
+.main {
+	background: url(../images/header-bg.jpg) top left repeat-x;
+}
+
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
