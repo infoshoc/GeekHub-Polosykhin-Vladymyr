@@ -1,0 +1,52 @@
+.content .description-txt {
+	line-height: 22px;
+}
+.content h2 {
+	border-bottom: 1px solid #A7C3CF;
+	text-align: center;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 19px;
+	color: #437183;
+}
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------STATUS-BLOCK------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content .status-block {
+	margin: 0 auto 37px;
+	padding: 75px 0 0;
+	width: 670px;
+	min-height: 260px;
+	background: url(../images/status-bg.png) center bottom no-repeat;
+	font: bold 39px "Trebuchet MS", sans-serif;
+	text-align: center;
+	line-height: 60px;
+}
+
+.content .register-link  {
+	display: block;
+	margin: 30px auto 0;
+	width: 307px; height: 78px;
+	background: url(../images/register-btn.png);
+}
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------COURSES-LIST------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.courses-list {
+	overflow: hidden;
+	margin: 0 -29px;
+}
+.courses-list li {
+	overflow: hidden;
+	float: left;
+	width: 45%;
+	margin: 0 23px;
+}
+.courses-list img {
+	float: left;
+}
+.courses-list h3 {
+	overflow: hidden;
+}
+.courses-list p {
+	overflow: hidden;
+}
