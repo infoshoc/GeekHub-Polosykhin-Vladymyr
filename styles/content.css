@@ -37,7 +37,6 @@
 }
 .courses-list li {
 	overflow: hidden;
-	float: left;
 	width: 44%;
 	margin: 0 28px;
 }

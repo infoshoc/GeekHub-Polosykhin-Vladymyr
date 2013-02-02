@@ -1,5 +1,7 @@
 .header {
 	overflow: hidden;
+}
+.main .header {
 	border-bottom: 1px solid #95A7B1;
 }
 
@@ -36,7 +38,7 @@ h1 {
 .header .navigation {
 	float: right;
 	overflow: hidden;	
-	padding: 47px 0 46px;
+	padding: 47px 0 0;
 }
 .navigation li {
 	float: left;
@@ -47,6 +49,13 @@ h1 {
 	font-family: "PT Sans", sans-serif;
 	font-weight: bold;
 	color: #396375;
+}
+.header .navigation .active {
+	background: url(../images/header-active-arrow.png) center bottom no-repeat;
+	height: 70px;
+}
+.main .header .navigation .active {
+	background: none;
 }
 .header .navigation .active a {
 	color: #e21d5d;
