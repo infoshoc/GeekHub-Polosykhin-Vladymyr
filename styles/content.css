@@ -1,12 +1,34 @@
 .content .description-txt {
 	line-height: 22px;
 }
-.content h2 {
+.main .content h2 {
+	margin: 0 0 10px;
 	border-bottom: 1px solid #A7C3CF;
+	padding: 25px 0 10px;
 	text-align: center;
 	font-family: "Trebuchet MS", sans-serif;
 	font-size: 19px;
 	color: #437183;
+}
+.contact .content h2, .about .content h2 {
+	font-size: 47px;
+	font-family: "Trebuchet MS", sans-serif;
+}
+.content h2 {
+	border-bottom: 1px solid #A7C3CF;
+	padding: 25px 0 20px;
+	text-align: left;
+	font: normal 52px "PT Sans", sans-serif;
+	color: #4B7589;
+}
+.content ul {
+	overflow: hidden;
+}
+.content h3 {
+	overflow: hidden;
+	font-size: 28px;
+	font-family: "Trebuchet MS", sans-serif;
+	color: #E92777;
 }
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------STATUS-BLOCK------------------------------------*/
@@ -44,15 +66,112 @@
 	float: left;
 	margin: 0 20px 0 0;
 }
-.courses-list h3 {
-	overflow: hidden;
-	font-size: 28px;
-	font-family: "Trebuchet MS", sans-serif;
-	color: #E92777;
-}
 .courses-list p {
 	overflow: hidden;
 	line-height: 18px;
 	font-size: 13px;
 	color: #4B7589;
+}
+/*----------------------------------------------------------------------------------*/
+/*-----------------------------------WORKER-LIST------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.worker-list li {
+	overflow: hidden;
+	padding: 15px 35px 0;
+}
+.worker-list div {
+	float: left;
+	padding: 45px 0 0;
+	width: 170px;
+	text-align: right;
+}
+.worker-list .odd-item div{
+	float: right;
+	text-align: left;
+}
+.worker-list h3{
+	color: #E92777;
+	font-size: 28px;
+	font-weight: normal;
+}
+.worker-list span{
+	color: #F2753D;
+	font-size: 13px;
+}
+.worker-list img {
+	float: left;
+	padding: 0 20px;
+}
+.worker-list .odd-item img{
+	float: right;
+}
+.worker-list p{
+	overflow: hidden;
+	padding: 40px 0 0;
+	color: #4B7589;
+	font-size: 15px;
+}
+.worker-list .odd-item p{
+	text-align: right;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTACT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.map-item span {
+	display: block;
+	width: 415px; height: 321px;
+	background: url(../images/map-img.jpg);
+}
+.contact .content ul {
+	text-align: center;
+	font-size: 33px;
+	font-family: "Trebuchet MS", sans-serif;
+}
+.contact .content > ul > li {
+	overflow: hidden;
+	margin: 35px 0 0;
+}
+.contact .content ul .map-item {
+	float: left;
+	margin: 15px 0 0;
+}
+.contact .content ul h3 {
+	margin: 0 0 15px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-----------------------------------SOCIAL-LIST------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content .social-list {
+	overflow: hidden;
+	width: 178px;
+	margin: 0 auto;
+}
+.content .social-list li {
+	float: left;
+	margin: 0 17px 0 0;
+}
+.social-list a {
+	display: block;
+	width: 48px; height: 48px;
+	background-image: url(../images/contact--social-icons-spirit.png);
+}
+.content .social-list .twitter-item { margin: 0; }
+.content .social-list .facebook-item a { background-position: left top; } .content .social-list .facebook-item a:hover { background-position: left bottom; }
+.content .social-list .vkontakte-item a { background-position: center top; } .content .social-list .vkontakte-item a:hover { background-position: center bottom; }
+.content .social-list .twitter-item a { background-position: right top; } .content .social-list .twitter-item a:hover { background-position: right bottom; }
+/*----------------------------------------------------------------------------------*/
+/*--------------------------------------ABOUT---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.about .content {
+	margin: 0 0 -45px;
+}
+.about .content h2 {
+	margin: 0 0 40px;
+}
+.about .content img {
+	margin: 0 0 0 35px;
+}
+.about .content p {
+	margin: 0 35px 25px;
 }
