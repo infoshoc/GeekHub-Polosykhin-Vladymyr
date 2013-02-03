@@ -1,3 +1,6 @@
+.content {
+	overflow: hidden;
+}
 .content .description-txt {
 	line-height: 22px;
 }
@@ -188,4 +191,40 @@
 	width: 269px; height: 214px;
 	background: url(../images/certificates-registery-img.jpg);
 	float: left;
+}
+/*----------------------------------------------------------------------------------*/
+/*--------------------------------------SPONSOR-------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.sponsors-list {
+	overflow: hidden;
+}
+.sponsors-list li{
+	float: left;
+}
+.sponsors-list li a {
+	display: block;
+	background-position: bottom;
+}
+.sponsors-list li a:hover{
+	background-position: top;
+}
+.house-of-gospel-item a{
+	background-image: url(../images/house-of-gospel-logo.jpg);
+	width: 69px; height: 54px;
+}
+.master-of-code-item a{
+	background-image: url(../images/master-of-code-logo.jpg);
+	width: 72px; height: 39px;
+}
+.sergium-item a{
+	background-image: url(../images/sergium-logo.jpg);
+	width: 44px; height: 44px;
+}
+.yothog-item a{
+	background-image: url(../images/yothog-logo.jpg);
+	width: 59px; height: 44px;
+}
+._5-s-item a{
+	background-image: url(../images/5-logo.jpg);
+	width: 59px; height: 47px;
 }
