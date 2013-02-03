@@ -192,7 +192,7 @@
 /*----------------------------------------------------------------------------------*/
 .facebook-widget {	
 	float: left;
-	margin: 0 40px 0 0;
+	margin: 20px 40px 0 0;
 	width: 267px; height: 197px;
 	background: url(../images/facebook-widget.jpg);
 }
