@@ -181,7 +181,11 @@
 .facebook-widget {	
 	background: url(../images/facebook-widget.jpg);
 	width: 267px; height: 197px;
+	float: left;
 }
 .certificates-registery-link {
-	
+	display: block;
+	width: 269px; height: 214px;
+	background: url(../images/certificates-registery-img.jpg);
+	float: left;
 }
