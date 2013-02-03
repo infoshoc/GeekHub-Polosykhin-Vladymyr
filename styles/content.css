@@ -5,7 +5,7 @@
 	line-height: 22px;
 }
 .main .content h2 {
-	margin: 0 0 10px;
+	margin: 0 0 25px;
 	border-bottom: 1px solid #A7C3CF;
 	padding: 25px 0 10px;
 	text-align: center;
@@ -58,12 +58,18 @@
 /*----------------------------------------------------------------------------------*/
 .courses-list {
 	overflow: hidden;
-	margin: 0 -29px;
+	margin: 0 -29px 50px;;
 }
 .courses-list li {
+	float: left;
 	overflow: hidden;
+	margin: 0 28px 30px;
 	width: 44%;
-	margin: 0 28px;
+	min-height: 170px;
+}
+.courses-list h3 {
+	padding: 0 0 10px;
+	font-weight: normal;
 }
 .courses-list img {
 	float: left;
@@ -185,24 +191,42 @@
 /*--------------------------------------WIDGET--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 .facebook-widget {	
-	background: url(../images/facebook-widget.jpg);
-	width: 267px; height: 197px;
 	float: left;
+	margin: 0 40px 0 0;
+	width: 267px; height: 197px;
+	background: url(../images/facebook-widget.jpg);
 }
 .certificates-registery-link {
 	display: block;
+	float: left;
+	margin: 0 40px 0 0;
 	width: 269px; height: 214px;
 	background: url(../images/certificates-registery-img.jpg);
-	float: left;
 }
 /*----------------------------------------------------------------------------------*/
 /*--------------------------------------SPONSOR-------------------------------------*/
 /*----------------------------------------------------------------------------------*/
+h3.sponsors-header {
+	border-bottom: 1px solid #AEC2CE;
+	padding: 0 0 10px;
+	margin: 0 0 25px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	text-align: center;
+	font: normal 17px "Trebuchet MS", sans-serif;
+	color:#437183;	
+}
 .sponsors-list {
 	overflow: hidden;
+	padding: 0 0 0 5px;
 }
 .sponsors-list li{
 	float: left;
+	margin: 0 17px 10px 0;
+	height: 54px;
+}
+.sponsors-list .yothog-item {
+	margin: 0 17px 0 50px;
 }
 .sponsors-list li a {
 	display: block;
